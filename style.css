@@ -298,7 +298,7 @@ section.portifolio .flex{
 
 /* menu mobile */
 .menu-mobile{
-    background-color:rgba(65, 62, 62, 0.781);
+    background-color:rgba(65, 62, 62, 0.981);
     position: absolute;
     backdrop-filter: blur(16px);
     top: 110px;
