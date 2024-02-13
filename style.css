@@ -300,7 +300,7 @@ section.portifolio .flex{
 .menu-mobile{
     background-color:rgba(65, 62, 62, 0.781);
     position: absolute;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(16px);
     top: 110px;
     left: 0;
     width: 100%;
@@ -321,7 +321,7 @@ section.portifolio .flex{
     background-color: rgba(197, 192, 192, 0.375);
 } */
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 700px){
    /* GERAL */
    .flex{
     flex-direction: column;
