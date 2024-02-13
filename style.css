@@ -321,7 +321,7 @@ section.portifolio .flex{
     background-color: rgba(197, 192, 192, 0.375);
 } */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
    /* GERAL */
    .flex{
     flex-direction: column;
