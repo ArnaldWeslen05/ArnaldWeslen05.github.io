@@ -33,6 +33,7 @@ body{
 .btn-mae{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .btn-entrecontato button{
     padding: 10px 40px;
