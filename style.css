@@ -30,6 +30,10 @@ body{
     transition: .2s;
 
 }
+.btn-mae{
+    display: flex;
+    align-items: center;
+}
 .btn-entrecontato button{
     padding: 10px 40px;
     font-size: 18px;
