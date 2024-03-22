@@ -6,4 +6,6 @@ menuDiv.addEventListener('click', animarMenu)
 function animarMenu(){
     menuDiv.classList.toggle('abrir')
     btnAnimar.classList.toggle('ativar')
+    
 }
+

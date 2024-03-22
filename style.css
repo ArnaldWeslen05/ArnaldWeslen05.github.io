@@ -51,6 +51,7 @@ h2.titulo{
     color: white;
     font-size: 38px;
     text-align: center;
+    padding: 80px 4%;
 }
 h2.titulo span{
     color: #00ff08;
@@ -77,6 +78,7 @@ header a{
     color: #7d7d7d;
     text-decoration: none;
     display: inline-block;
+    
 }
 header a:hover{
     color: rgb(243, 243, 243);
@@ -176,7 +178,7 @@ header .interface .logo img{
  /* estilo das especialidades */
 
  section.especialidades{
-   padding: 80px 4%;
+   padding: 30px 4%;
    color: #e60f0fcf;
 
  }
@@ -219,7 +221,11 @@ header .interface .logo img{
     align-items: center;
     gap: 60px;
  }
+  
+
+ /* sobre */
  .sobre .txt-sobre h2{
+    padding: 80px 4%;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
@@ -342,6 +348,7 @@ section.portifolio .flex{
     /* cabeçalho */
     .menu-desktop, .btn-contato{
         display: none;
+       
     }
 
     /* topo do site */
