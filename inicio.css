@@ -1,0 +1,99 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black
+}
+.loading{
+    text-align: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgba(195, 193, 193, 0.663);
+    font-size: small;
+    animation: link 1.3s linear infinite;
+}
+.titulo {
+    color: #00ff08d4;
+    padding: 50px 4%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.spiner{
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    border: 25px solid rgba(82, 81, 81, 0.1);
+    border-top-color: #00ff08c4 ; 
+    box-shadow:  7px 0px 999px 13px #00ff08; 
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite ;
+} 
+
+@keyframes spin{
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes link{
+    from{
+        color: rgba(195, 193, 193, 0.663) ;
+    }to{
+        color: rgb(40, 40, 40);
+    }
+}
+/* LOADING */
+.point1{
+    color: #00ff08;
+    animation: point1 2s infinite;
+}
+.point2{
+    color: #00ff08;
+    animation: point2 2s infinite;
+}
+.point3{
+    color: #00ff08;
+    animation: point3 2s infinite;
+}
+@keyframes point1{
+    100%{
+        color: #000000;
+    }10%{
+        color: #00ff08;
+    }
+}
+@keyframes point2{
+    100%{
+        color: #000000;
+    }40%{
+        color: #00ff08;
+    }
+}
+
+@keyframes point3{
+    100%{
+        color: #000000;
+    }70%{
+        color: #00ff08;
+    }
+}
+/* responsivo */
+
+@media screen and (max-width: 920px){
+
+    .spiner{
+        width: 80px;
+        height: 80px;
+        margin-top: 150px;
+        border: 15px solid rgba(82, 81, 81, 0.1);
+        border-top-color: #00ff08c4 ; 
+    } 
+}
