@@ -65,7 +65,8 @@ h2.titulo span{
 /* estilo do cabeçario */
 
 header{
-    padding: 40px 4%;
+    padding: 10px 4%;
+ 
 }
 
 header > .interface{
@@ -118,10 +119,11 @@ section.topo-do-site .flex{
     margin: 40px 0px;
 
 }
+
 .topo-do-site .img-topo-site img{
     width: 300px;
     margin: 60px;
-    position: relative;
+    /* position: relative; (flutuar) */
     animation: flutuar 2s ease-in-out infinite alternate;
     
 }
@@ -311,8 +313,8 @@ section.portifolio .flex{
 .menu-mobile{
     background-color:rgba(65, 62, 62, 0.981);
     position: absolute;
-    backdrop-filter: blur(16px);
-    top: 110px;
+    backdrop-filter: blur(3px);
+    top: 90px;
     left: 0;
     width: 100%;
     height: 0;   
@@ -374,7 +376,8 @@ section.portifolio .flex{
     /* estilo das especialidades */
 
     section.especialidades{
-        padding: 40px 10%;
+        padding: 40px 15%;
+        text-align: center;
     }
     /* sobre */
     section.sobre{
@@ -408,7 +411,7 @@ section.portifolio .flex{
     }
     .menu-mobile.abrir{
        visibility: visible;
-       height: calc(100vh - 110px);
+       height: calc(100vh - 100px);
     }
     #btn-menu{
         display: block;
