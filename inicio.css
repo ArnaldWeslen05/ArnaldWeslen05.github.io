@@ -9,8 +9,9 @@ body {
 .loading {
   text-align: center;
   align-items: center;
+  margin-top: 150px;
 }
-a {
+a{
   text-decoration: none;
   color: rgba(195, 193, 193, 0.663);
   font-size: small;
@@ -19,7 +20,7 @@ a {
 .titulo {
   color: #00ff08d4;
   padding: 30px 4%;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 .container {
   display: flex;
