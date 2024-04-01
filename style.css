@@ -47,7 +47,7 @@ body {
   align-items: center;
 }
 h2.titulo {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 38px;
   text-align: center;
   padding: 80px 4%;

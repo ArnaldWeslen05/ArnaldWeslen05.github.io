@@ -18,7 +18,8 @@ a {
 }
 .titulo {
   color: #00ff08d4;
-  padding: 50px 4%;
+  padding: 30px 4%;
+  margin-top: 150px;
 }
 .container {
   display: flex;
@@ -34,7 +35,7 @@ a {
   border-top-color: #00ff08c4;
   box-shadow: 7px 0px 999px 13px #00ff08;
   border-radius: 50%;
-  animation: spin 1.5s linear infinite;
+  animation: spin 4s linear infinite;
 }
 
 @keyframes spin {
@@ -43,11 +44,13 @@ a {
   }
 }
 @keyframes link {
-  from {
-    color: rgba(195, 193, 193, 0.663);
+  0% {
+    color: rgb(0, 0, 0);
+    
   }
-  to {
-    color: rgb(40, 40, 40);
+  100% {
+  
+    color: rgba(195, 193, 193, 0.663);
   }
 }
 /* LOADING */
@@ -88,6 +91,43 @@ a {
     color: #00ff08;
   }
 }
+div.nome{
+  padding: 30px;
+  margin-top: -30px;
+}
+.txt{
+  width: 200px;
+  border-radius: 10px;
+  border: black;
+  box-shadow: 3px 3px 5px #00ff08c4; 
+  font: 20px;
+  font-style: italic;
+  background-color: rgba(10, 9, 9, 0.853);
+  color: white;
+}
+.btn{
+  text-align: center;
+  background-color: transparent;
+  margin: auto;
+  height: 2px;
+  width: 30px;
+  border-radius: 10px;
+  /* background-color: rgba(10, 9, 9, 0.853); */
+   border-radius: 10px; 
+  font-size: 13px;
+  font-family: initial;
+  color: white;
+  border: black;
+  
+}
+.pgt{
+  margin: auto;
+  padding: 4px;
+ margin-right: 150px;
+  color: white;
+  font-size: 10px;
+}
+
 /* responsivo */
 
 @media screen and (max-width: 920px) {
