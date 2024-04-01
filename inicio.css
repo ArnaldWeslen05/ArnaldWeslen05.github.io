@@ -16,6 +16,13 @@ a{
   color: rgba(195, 193, 193, 0.663);
   font-size: small;
   animation: link 1.3s linear infinite;
+  margin: auto;
+  text-align: center;
+}
+.link{
+  text-align: center;
+  justify-content: center;
+
 }
 .titulo {
   color: #00ff08d4;
@@ -91,42 +98,6 @@ a{
   70% {
     color: #00ff08;
   }
-}
-div.nome{
-  padding: 30px;
-  margin-top: -30px;
-}
-.txt{
-  width: 200px;
-  border-radius: 10px;
-  border: black;
-  box-shadow: 3px 3px 5px #00ff08c4; 
-  font: 20px;
-  font-style: italic;
-  background-color: rgba(10, 9, 9, 0.853);
-  color: white;
-}
-.btn{
-  text-align: center;
-  background-color: transparent;
-  margin: auto;
-  height: 2px;
-  width: 30px;
-  border-radius: 10px;
-  /* background-color: rgba(10, 9, 9, 0.853); */
-   border-radius: 10px; 
-  font-size: 13px;
-  font-family: initial;
-  color: white;
-  border: black;
-  
-}
-.pgt{
-  margin: auto;
-  padding: 4px;
- margin-right: 150px;
-  color: white;
-  font-size: 10px;
 }
 
 /* responsivo */
